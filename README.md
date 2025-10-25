@@ -2,12 +2,7 @@
 
 > AI-Powered Investment Intelligence for Kenyan Markets with Real-time Sentiment Analysis
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue.svg)](https://www.typescriptlang.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-Latest-green.svg)](https://supabase.com/)
-
-## 🚀 What is MaliGuide?
+## What is MaliGuide?
 
 MaliGuide is a cutting-edge financial technology platform that democratizes investment intelligence for the Kenyan market. By combining artificial intelligence, real-time market data, and advanced sentiment analysis, we provide retail and institutional investors with the tools traditionally available only to large financial institutions.
 
@@ -15,7 +10,7 @@ Our platform specializes in the unique dynamics of Kenyan financial markets, off
 
 *"Mali" means wealth in Swahili - MaliGuide is your guide to building wealth through smart investing.*
 
-## 🎯 Why MaliGuide?
+## Why MaliGuide?
 
 ### The Problem We Solve
 
@@ -35,40 +30,40 @@ MaliGuide addresses these challenges by providing:
 - **Smart Notifications**: Proactive alerts for opportunities and risks
 - **Educational Guidance**: Learn while you invest with AI explanations
 
-## ✨ Key Features
+## Key Features
 
-### 🤖 Artificial Intelligence Engine
+### Artificial Intelligence Engine
 - **Personalized Recommendations**: AI analyzes your portfolio, risk tolerance, and goals to suggest optimal investments
 - **Sentiment Analysis**: Natural language processing of financial news with confidence scoring
 - **Market Prediction**: Advanced algorithms identify trends and opportunities
 - **Risk Assessment**: Automated portfolio risk analysis and rebalancing suggestions
 
-### 📊 Comprehensive Market Coverage
+### Comprehensive Market Coverage
 - **NSE Stocks**: Real-time data for all major Kenyan stocks (Safaricom, Equity Bank, KCB, etc.)
 - **Government Securities**: Treasury Bills (91d, 182d, 364d) and Treasury Bonds (2Y, 5Y, 10Y, 15Y)
 - **Money Market Funds**: Performance tracking for major MMFs (CIC, Britam, Cytonn, etc.)
 - **Cryptocurrencies**: Bitcoin, Ethereum, and other major digital assets
 - **Forex Markets**: USD/KES, EUR/KES, GBP/KES, and other currency pairs
 
-### 📱 Smart Notification System
+### Smart Notification System
 - **Intelligent Alerts**: AI determines what's important based on your portfolio and preferences
 - **Multi-Channel Delivery**: In-app, email, push, and SMS notifications
 - **Customizable Thresholds**: Set your own price and portfolio change alerts
 - **Real-time Updates**: Instant notifications for market-moving events
 
-### 💼 Advanced Portfolio Management
+### Advanced Portfolio Management
 - **Real-time Tracking**: Live portfolio value updates with performance analytics
 - **Visual Analytics**: Interactive charts and graphs for better insights
 - **Diversification Analysis**: Understand your risk exposure across sectors and asset classes
 - **Performance Benchmarking**: Compare your returns against market indices
 
-### 🧠 AI Investment Assistant
+### AI Investment Assistant
 - **Natural Language Chat**: Ask questions about investments in plain English
 - **Market Explanations**: Get AI-powered explanations of market movements
 - **Educational Content**: Learn investment concepts through interactive conversations
 - **Contextual Advice**: Recommendations based on current market conditions
 
-## 🌍 Focus on Kenyan Markets
+## Focus on Kenyan Markets
 
 ### Why Kenya-Specific Matters
 
@@ -86,7 +81,7 @@ Generic global investment platforms miss the nuances of the Kenyan market:
 - **Local Partnerships**: Integration with major Kenyan financial institutions
 - **Community Focus**: Features designed for the Kenyan investment community
 
-## 🎨 User Experience
+## User Experience
 
 ### Beautiful, Intuitive Design
 - **Modern Interface**: Clean, professional design that's easy to navigate
@@ -100,7 +95,7 @@ Generic global investment platforms miss the nuances of the Kenyan market:
 - **Goal Setting**: Define and track progress toward investment objectives
 - **Risk Profiling**: Tailored experience based on your risk tolerance
 
-## 🔒 Security & Trust
+## Security & Trust
 
 ### Data Protection
 - **Bank-Level Security**: Enterprise-grade encryption and security measures
@@ -114,7 +109,7 @@ Generic global investment platforms miss the nuances of the Kenyan market:
 - **Quality Assurance**: Automated data validation and error detection
 - **Backup Systems**: Redundant systems ensure continuous availability
 
-## 🚀 Getting Started
+## Getting Started
 
 Ready to transform your investment journey? Here's how to begin:
 
@@ -126,7 +121,7 @@ Ready to transform your investment journey? Here's how to begin:
 
 For detailed setup instructions, see our [Deployment Guide](./DEPLOYMENT.md).
 
-## 📈 Success Stories
+## Success Stories
 
 ### Retail Investors
 - **Sarah K., Nairobi**: "MaliGuide helped me diversify beyond just Safaricom. My portfolio is up 23% this year!"
@@ -137,7 +132,7 @@ For detailed setup instructions, see our [Deployment Guide](./DEPLOYMENT.md).
 - **Uongozi Investment Club**: "We use MaliGuide for our monthly meetings. The sentiment analysis helps us time our investments better."
 - **Nairobi Young Professionals**: "The portfolio tracking features make it easy to manage our group investments."
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React 18** with TypeScript for type-safe, modern web development
@@ -157,7 +152,7 @@ For detailed setup instructions, see our [Deployment Guide](./DEPLOYMENT.md).
 - **News Aggregation** for sentiment analysis
 - **Multiple Exchanges** for cross-verification
 
-## 🤝 Community & Support
+## Community & Support
 
 ### Join Our Community
 - **Discord Server**: Connect with other Kenyan investors
@@ -171,22 +166,22 @@ For detailed setup instructions, see our [Deployment Guide](./DEPLOYMENT.md).
 - **Live Chat**: Real-time assistance during business hours
 - **Video Tutorials**: Step-by-step guides for all features
 
-## 🔮 Roadmap
+## Roadmap
 
 ### Coming Soon
-- **📱 Mobile App**: Native iOS and Android applications
-- **🔍 Advanced Search**: Global search across all platform content
-- **📊 Portfolio Analytics**: Advanced performance metrics and benchmarking
-- **🎨 Customization**: Themes, layouts, and personalization options
-- **👥 Social Features**: Share insights and follow other investors
+- **Mobile App**: Native iOS and Android applications
+- **Advanced Search**: Global search across all platform content
+- **Portfolio Analytics**: Advanced performance metrics and benchmarking
+- **Customization**: Themes, layouts, and personalization options
+- **Social Features**: Share insights and follow other investors
 
 ### Future Vision
-- **🌍 Regional Expansion**: Coverage of other East African markets
-- **🏦 Banking Integration**: Direct integration with Kenyan banks
-- **📚 Educational Platform**: Comprehensive investment education courses
-- **🤖 Advanced AI**: Even more sophisticated recommendation algorithms
+- **Regional Expansion**: Coverage of other East African markets
+- **Banking Integration**: Direct integration with Kenyan banks
+- **Educational Platform**: Comprehensive investment education courses
+- **Advanced AI**: Even more sophisticated recommendation algorithms
 
-## 📄 Legal & Compliance
+## Legal & Compliance
 
 ### Important Disclaimers
 - **Not Financial Advice**: Our platform provides information and tools, not personalized financial advice
@@ -197,7 +192,7 @@ For detailed setup instructions, see our [Deployment Guide](./DEPLOYMENT.md).
 ### Licensing
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 We're grateful to the Kenyan investment community, our beta testers, and the open-source projects that make MaliGuide possible. Special thanks to:
 
@@ -212,4 +207,4 @@ We're grateful to the Kenyan investment community, our beta testers, and the ope
 
 [Get Started Today](https://maliguide.com) | [View Documentation](./DEPLOYMENT.md) | [Join Our Community](https://discord.gg/maliguide)
 
-*MaliGuide - Your Guide to Building Wealth in Kenya* 🇰🇪
+*MaliGuide - Your Guide to Building Wealth in Kenya*

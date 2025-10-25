@@ -25,10 +25,10 @@ export async function testConnection() {
     if (error && error.code !== 'PGRST116') { // PGRST116 = table doesn't exist yet
       throw error;
     }
-    console.log('✅ Supabase connection successful');
+    console.log('Supabase connection successful');
     return true;
   } catch (error) {
-    console.error('❌ Supabase connection failed:', error.message);
+    console.error('Supabase connection failed:', error.message);
     return false;
   }
 }

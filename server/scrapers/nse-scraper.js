@@ -22,14 +22,14 @@ const TRACKED_STOCKS = [
 
 export async function scrapeNSEData() {
   try {
-    console.log('🔄 Scraping NSE data...');
+    console.log('Scraping NSE data...');
     
     // Try to scrape real data first
     let stockData = await scrapeNSEWebsite();
     
     // If scraping fails or returns no data, use fallback
     if (!stockData || stockData.length === 0) {
-      console.log('⚠️ NSE scraping failed, using fallback data...');
+      console.log('NSE scraping failed, using fallback data...');
       stockData = await generateRealisticNSEData();
     }
     
@@ -38,11 +38,11 @@ export async function scrapeNSEData() {
       await upsertMarketData(stock);
     }
     
-    console.log(`✅ NSE data updated: ${stockData.length} stocks`);
+    console.log(`NSE data updated: ${stockData.length} stocks`);
     return stockData;
     
   } catch (error) {
-    console.error('❌ NSE scraping error:', error.message);
+    console.error('NSE scraping error:', error.message);
     
     // Fallback to mock data on error
     const fallbackData = await generateRealisticNSEData();

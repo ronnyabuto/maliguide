@@ -2,52 +2,44 @@ import { supabase } from './supabase.js';
 
 export async function initializeDatabase() {
   try {
-    console.log('🔄 Setting up database tables...');
+    console.log('Setting up database tables...');
     
-    // Create market_data table
     const { error: marketDataError } = await supabase.rpc('create_market_data_table');
     if (marketDataError && !marketDataError.message.includes('already exists')) {
       console.error('Error creating market_data table:', marketDataError);
     }
     
-    // Create user_portfolios table
     const { error: portfolioError } = await supabase.rpc('create_user_portfolios_table');
     if (portfolioError && !portfolioError.message.includes('already exists')) {
       console.error('Error creating user_portfolios table:', portfolioError);
     }
     
-    // Create ai_recommendations table
     const { error: recommendationsError } = await supabase.rpc('create_ai_recommendations_table');
     if (recommendationsError && !recommendationsError.message.includes('already exists')) {
       console.error('Error creating ai_recommendations table:', recommendationsError);
     }
     
-    // Create user_profiles table
     const { error: profilesError } = await supabase.rpc('create_user_profiles_table');
     if (profilesError && !profilesError.message.includes('already exists')) {
       console.error('Error creating user_profiles table:', profilesError);
     }
     
-    // Create notifications table
     const { error: notificationsError } = await supabase.rpc('create_notifications_table');
     if (notificationsError && !notificationsError.message.includes('already exists')) {
       console.error('Error creating notifications table:', notificationsError);
     }
     
-    // Create user_notification_preferences table
     const { error: notificationPrefsError } = await supabase.rpc('create_user_notification_preferences_table');
     if (notificationPrefsError && !notificationPrefsError.message.includes('already exists')) {
       console.error('Error creating user_notification_preferences table:', notificationPrefsError);
     }
     
-    console.log('✅ Database initialization complete');
+    console.log('Database initialization complete');
   } catch (error) {
-    console.error('❌ Database initialization failed:', error);
+    console.error('Database initialization failed:', error);
     throw error;
   }
 }
-
-// Database schema creation functions (to be run as SQL functions in Supabase)
 export const createTablesSQL = `
 -- Market Data Table
 CREATE TABLE IF NOT EXISTS market_data (

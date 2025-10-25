@@ -90,28 +90,27 @@ app.use('*', (req, res) => {
 // Initialize database and start server
 async function startServer() {
   try {
-    console.log('🔄 Initializing database...');
+    console.log('Initializing database...');
     await initializeDatabase();
     
-    console.log('🔄 Starting data ingestion services...');
+    console.log('Starting data ingestion services...');
     await startDataIngestion();
     
-    console.log('🔄 Initializing notification service...');
-    // Notification service is already initialized as singleton
+    console.log('Initializing notification service...');
     
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on port ${PORT}`);
-      console.log(`📊 Market data ingestion active`);
-      console.log(`🧠 AI sentiment analysis enabled`);
-      console.log(`👤 User profiles enabled`);
-      console.log(`🔔 Notifications system active`);
-      console.log(`🔗 API available at http://localhost:${PORT}`);
-      console.log(`📈 Sentiment API: http://localhost:${PORT}/api/sentiment`);
-      console.log(`👤 Profile API: http://localhost:${PORT}/api/profile`);
-      console.log(`🔔 Notifications API: http://localhost:${PORT}/api/notifications`);
+      console.log(`Server running on port ${PORT}`);
+      console.log(`Market data ingestion active`);
+      console.log(`AI sentiment analysis enabled`);
+      console.log(`User profiles enabled`);
+      console.log(`Notifications system active`);
+      console.log(`API available at http://localhost:${PORT}`);
+      console.log(`Sentiment API: http://localhost:${PORT}/api/sentiment`);
+      console.log(`Profile API: http://localhost:${PORT}/api/profile`);
+      console.log(`Notifications API: http://localhost:${PORT}/api/notifications`);
     });
   } catch (error) {
-    console.error('❌ Failed to start server:', error);
+    console.error('Failed to start server:', error);
     process.exit(1);
   }
 }

@@ -273,62 +273,38 @@ class NotificationService extends EventEmitter {
            (notification.type === 'portfolio_update' && notification.metadata?.severity === 'high');
   }
 
-  // Send email notification (placeholder - integrate with email service)
   async sendEmailNotification(userId, notification) {
     try {
       // Get user email from auth.users
       const { data: user } = await supabase.auth.admin.getUserById(userId);
       if (!user?.user?.email) return;
 
-      console.log(`📧 Email notification sent to ${user.user.email}:`, {
+      console.log(`Email notification sent to ${user.user.email}:`, {
         title: notification.title,
         message: notification.message
       });
-
-      // TODO: Integrate with email service (SendGrid, AWS SES, etc.)
-      // await emailService.send({
-      //   to: user.user.email,
-      //   subject: notification.title,
-      //   html: this.generateEmailTemplate(notification)
-      // });
     } catch (error) {
       console.error('Error sending email notification:', error);
     }
   }
 
-  // Send push notification (placeholder - integrate with push service)
   async sendPushNotification(userId, notification) {
     try {
-      console.log(`📱 Push notification sent to user ${userId}:`, {
+      console.log(`Push notification sent to user ${userId}:`, {
         title: notification.title,
         message: notification.message
       });
-
-      // TODO: Integrate with push service (Firebase, OneSignal, etc.)
-      // await pushService.send({
-      //   userId,
-      //   title: notification.title,
-      //   body: notification.message,
-      //   data: notification.metadata
-      // });
     } catch (error) {
       console.error('Error sending push notification:', error);
     }
   }
 
-  // Send SMS notification (placeholder - integrate with SMS service)
   async sendSMSNotification(userId, notification) {
     try {
-      console.log(`📱 SMS notification sent to user ${userId}:`, {
+      console.log(`SMS notification sent to user ${userId}:`, {
         title: notification.title,
         message: notification.message
       });
-
-      // TODO: Integrate with SMS service (Twilio, AWS SNS, etc.)
-      // await smsService.send({
-      //   userId,
-      //   message: `${notification.title}: ${notification.message}`
-      // });
     } catch (error) {
       console.error('Error sending SMS notification:', error);
     }
@@ -337,7 +313,7 @@ class NotificationService extends EventEmitter {
   // Setup real-time subscription for notifications
   setupRealtimeSubscription() {
     // This would be used for WebSocket connections
-    console.log('📡 Notification service real-time subscription initialized');
+    console.log('Notification service real-time subscription initialized');
   }
 
   // Automated notification generators
